@@ -13,8 +13,8 @@ from langchain import OpenAI
 from langchain.utilities import SerpAPIWrapper
 from langchain.agents import initialize_agent
 import os
-os.environ["OPENAI_API_KEY"] ="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"
-serpapi_key="5e4b783d1e905b2992665d83235e27aaa73e103f239fb757b84be1cc2c75c57b"
+os.environ["OPENAI_API_KEY"] ="OPENAI_API_KEY"
+serpapi_key="serpapi_key"
 
 def conversation_agent():
     search = SerpAPIWrapper(serpapi_api_key=serpapi_key)

@@ -1,1 +1,1 @@
-apikey="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"
+apikey="Enter youe OpenAI Api key"

@@ -10,7 +10,7 @@ from langchain.llms import OpenAI
 from langchain.chains import ConversationChain
 from langchain.memory import ConversationBufferMemory
 
-os.environ["OPENAI_API_KEY"] =apikey #"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"
+os.environ["OPENAI_API_KEY"] =apikey 
 
 def conversation_memory():
     history = ChatMessageHistory()

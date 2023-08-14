@@ -8,8 +8,8 @@
 # from langchain import OpenAI, ConversationChain, LLMChain, PromptTemplate
 # from langchain.memory import ConversationBufferWindowMemory
 # import os
-# os.environ["OPENAI_API_KEY"] ="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"
-# #serpapi_key="5e4b783d1e905b2992665d83235e27aaa73e103f239fb757b84be1cc2c75c57b"
+# os.environ["OPENAI_API_KEY"] ="OPENAI_API_KEY"
+# #serpapi_key="serpapi_key"
 
 
 
@@ -81,8 +81,8 @@
 from langchain import OpenAI, ConversationChain, LLMChain, PromptTemplate
 from langchain.memory import ConversationBufferWindowMemory
 import os
-os.environ["OPENAI_API_KEY"] ="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"
-#serpapi_key="5e4b783d1e905b2992665d83235e27aaa73e103f239fb757b84be1cc2c75c57b"
+os.environ["OPENAI_API_KEY"] ="OPENAI_API_KEY"
+#serpapi_key="serpapi_key"
 
 
 

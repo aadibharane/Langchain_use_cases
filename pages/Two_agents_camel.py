@@ -54,7 +54,7 @@ def camel():
     import os
     import time
 
-    os.environ["OPENAI_API_KEY"] ="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" #'sk-Wzh2pAacR2E8cBHlA1lAT3BlbkFJHLz0g6RfhKOwjuD' #PUT your API Key
+    os.environ["OPENAI_API_KEY"] ="#PUT your API Key"
 
     #### Configuring Streamlit for Creating Web apps
     import streamlit as st #Open-source Python library that makes it easy to create beautiful, custom web apps

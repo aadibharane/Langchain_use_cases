@@ -10,7 +10,7 @@ import streamlit as st
 import os
 from apikey import apikey
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "Enter youe OpenAI Api key"
 
 class TaskCreationChain(LLMChain):
     @classmethod

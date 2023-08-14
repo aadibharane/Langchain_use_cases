@@ -41,7 +41,7 @@ from dotenv import load_dotenv
 import streamlit as st
 import os
 
-# os.environ["OPENAI_API_KEY"] = "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"
+# os.environ["OPENAI_API_KEY"] = ""Enter youe OpenAI Api key""
 
 def csv_agent():
     load_dotenv()

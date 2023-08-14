@@ -8,7 +8,7 @@ from langchain.chains.question_answering import load_qa_chain
 from langchain.llms import OpenAI
 from langchain.callbacks import get_openai_callback
 import os
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "Enter youe OpenAI Api key"
 def pdf_query():
     #load_dotenv()
     st.set_page_config(page_title="Ask your PDF")

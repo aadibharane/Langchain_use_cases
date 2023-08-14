@@ -20,7 +20,7 @@ One of the core utility classes underpinning most (if not all) memory modules is
 This is a super lightweight wrapper which exposes convenience methods for saving Human messages, AI messages, and then fetching them all.
 '''
 import os
-os.environ["OPENAI_API_KEY"] ="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"
+os.environ["OPENAI_API_KEY"] ="OPENAI_API_KEY"
 #You may want to use this class directly if you are managing memory outside of a chain.
 from langchain.memory import ChatMessageHistory
 from langchain.llms import OpenAI
