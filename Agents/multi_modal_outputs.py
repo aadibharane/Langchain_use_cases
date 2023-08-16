@@ -9,10 +9,8 @@ You can get your Steamship api key here: https://steamship.com/account/api
 # import re
 # from IPython.display import Image
 # import os
-# os.environ["OPENAI_API_KEY"] ="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"
-# #serpapi_key="5e4b783d1e905b2992665d83235e27aaa73e103f239fb757b84be1cc2c75c57b"
-# #openai_api_key = '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'
-# os.environ['STEAMSHIP_API_KEY']="9A04BC86-CD0D-479E-B448-E245B19BC9AB"
+# os.environ["OPENAI_API_KEY"] ="api key"
+# #serpapi_key="serpapi_key"
 
 # from langchain import OpenAI
 # from langchain.agents import initialize_agent
@@ -63,8 +61,8 @@ from steamship import Block, Steamship
 import re
 from IPython.display import Image
 import os
-os.environ["OPENAI_API_KEY"] = "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"
-os.environ['STEAMSHIP_API_KEY'] = "9A04BC86-CD0D-479E-B448-E245B19BC9AB"
+os.environ["OPENAI_API_KEY"] = "OPENAI_API_KEY"
+os.environ['STEAMSHIP_API_KEY'] = "STEAMSHIP_API_KEY"
 
 from langchain import OpenAI
 from langchain.agents import initialize_agent

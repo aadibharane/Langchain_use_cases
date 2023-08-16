@@ -4,8 +4,8 @@
 #Import LangChain related modules
 
 import os 
-os.environ["OPENAI_API_KEY"] ="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"
-serpapi_key="5e4b783d1e905b2992665d83235e27aaa73e103f239fb757b84be1cc2c75c57b"
+os.environ["OPENAI_API_KEY"] ="Your_OPENAI_API_KEY"
+serpapi_key="serpapi_key"
 
 
 from typing import List, Dict, Callable

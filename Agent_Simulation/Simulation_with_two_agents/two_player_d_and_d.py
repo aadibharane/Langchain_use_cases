@@ -5,8 +5,8 @@ we show how we can use concepts from CAMEL to simulate a role-playing game with 
 To simulate this game, we create an DialogueSimulator class that coordinates the dialogue between the two agents.
 '''
 import os
-os.environ["OPENAI_API_KEY"] ="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"
-serpapi_key="5e4b783d1e905b2992665d83235e27aaa73e103f239fb757b84be1cc2c75c57b"
+os.environ["OPENAI_API_KEY"] ="Enter your openai key"
+serpapi_key="your_serpapi_key"
 
 
 #Import LangChain related modules

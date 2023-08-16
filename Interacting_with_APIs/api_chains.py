@@ -8,9 +8,9 @@ from langchain.prompts.prompt import PromptTemplate
 
 
 import os
-os.environ["OPENAI_API_KEY"] ="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"
+os.environ["OPENAI_API_KEY"] ="OPENAI_API_KEY"
 import os
-os.environ['TMDB_BEARER_TOKEN'] = "36771ba14b9eba1d26cea1284ae431211466f8c4"
+os.environ['TMDB_BEARER_TOKEN'] = "TMDB_BEARER_TOKEN"
 from langchain.chains.api import tmdb_docs
 from langchain.chains.api import open_meteo_docs
 

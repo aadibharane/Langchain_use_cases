@@ -9,8 +9,8 @@ We will show how to do this in the example below that showcases a fictitious pre
 '''
 
 import os
-os.environ["OPENAI_API_KEY"] ="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"
-serpapi_key="5e4b783d1e905b2992665d83235e27aaa73e103f239fb757b84be1cc2c75c57b"
+os.environ["OPENAI_API_KEY"] ="your_api_key"
+serpapi_key="your_serpapi_key"
 
 #Import LangChain related modules
 

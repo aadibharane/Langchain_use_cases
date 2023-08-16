@@ -16,7 +16,7 @@ from langchain.tools.plugin import AIPlugin
 import re
 import plugnplai
 import os
-os.environ["OPENAI_API_KEY"] ="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"
+os.environ["OPENAI_API_KEY"] ="OPENAI_API_KEY"
 
 
 def plug_and_plai():

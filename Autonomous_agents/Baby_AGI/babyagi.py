@@ -26,7 +26,7 @@ from langchain.vectorstores import FAISS
 from langchain.docstore import InMemoryDocstore
 import faiss
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "OPENAI_API_KEY"
 
 # Define your embedding model
 def baby_agi():
@@ -78,7 +78,7 @@ baby_agi()
 # from langchain.docstore import InMemoryDocstore
 # import faiss
 
-# os.environ["OPENAI_API_KEY"] = "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"
+# os.environ["OPENAI_API_KEY"] = "OPENAI_API_KEY"
 
 # def baby_agi():
 #     embeddings_model = OpenAIEmbeddings()
@@ -127,7 +127,7 @@ from langchain.vectorstores import FAISS
 from langchain.docstore import InMemoryDocstore
 import faiss
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "OPENAI_API_KEY"
 
 def run_baby_agi():
     embeddings_model = OpenAIEmbeddings()
@@ -172,7 +172,7 @@ window.mainloop()
 # from langchain.docstore import InMemoryDocstore
 # import faiss
 
-# os.environ["OPENAI_API_KEY"] = "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"
+# os.environ["OPENAI_API_KEY"] = "OPENAI_API_KEY"
 
 # def run_baby_agi():
 #     embeddings_model = OpenAIEmbeddings()
@@ -220,7 +220,7 @@ from langchain.vectorstores import FAISS
 from langchain.docstore import InMemoryDocstore
 import faiss
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "OPENAI_API_KEY"
 
 def run_baby_agi():
     embeddings_model = OpenAIEmbeddings()
@@ -281,7 +281,7 @@ from tkinter import messagebox
 from langchain import OpenAI, LLMChain, PromptTemplate
 from langchain.memory import ConversationBufferWindowMemory
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "OPENAI_API_KEY"
 
 def chatgpt_clone():
     template = """Assistant is a large language model trained by OpenAI.

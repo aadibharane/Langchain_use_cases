@@ -27,7 +27,7 @@ Project website: https://www.camel-ai.org/
 from typing import List
 from langchain.chat_models import ChatOpenAI
 import os
-os.environ["OPENAI_API_KEY"] ="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" #"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"
+os.environ["OPENAI_API_KEY"] ="Your_OPENAI_API_KEY"
 
 from langchain.prompts.chat import (
     SystemMessagePromptTemplate,

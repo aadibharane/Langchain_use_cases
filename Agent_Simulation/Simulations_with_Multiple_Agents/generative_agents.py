@@ -8,7 +8,7 @@
 #!pip install termcolor > /dev/null
 
 import os
-os.environ["OPENAI_API_KEY"] ="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"
+os.environ["OPENAI_API_KEY"] ="your_api_key"
 
 
 import logging

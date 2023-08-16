@@ -7,7 +7,7 @@ LLM generated Python code - this can be bad if the LLM generated Python code is 
 '''
 import os
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "OPENAI_API_KEY"
 
 from langchain.agents import create_csv_agent
 from langchain.llms import OpenAI
@@ -30,7 +30,7 @@ csv_agent()
 # from langchain.agents import create_csv_agent
 # from langchain.llms import OpenAI
 
-# os.environ["OPENAI_API_KEY"] = "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"
+# os.environ["OPENAI_API_KEY"] = "OPENAI_API_KEY"
 
 # # Single CSV file example
 # agent = create_csv_agent(OpenAI(temperature=0), 'titanic.csv', verbose=True)

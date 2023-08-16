@@ -8,7 +8,7 @@ import os
 # you need to put it in your .env file 
 # OPENAI_API_KEY='sk-xxxx'
 
-os.environ['OPENAI_API_KEY'] = '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'     #'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'
+os.environ['OPENAI_API_KEY'] = 'OPENAI_API_KEY'     
 
 from typing import Dict, List, Any
 

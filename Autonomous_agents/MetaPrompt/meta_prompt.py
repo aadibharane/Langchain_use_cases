@@ -7,8 +7,8 @@ from langchain import OpenAI, LLMChain, PromptTemplate
 from langchain.memory import ConversationBufferWindowMemory
 import os
 
-os.environ["OPENAI_API_KEY"] ="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"
-serpapi_key="5e4b783d1e905b2992665d83235e27aaa73e103f239fb757b84be1cc2c75c57b"
+os.environ["OPENAI_API_KEY"] ="OPENAI_API_KEY"
+serpapi_key="serpapi_key"
 
 def meta_prompt():
     def initialize_chain(instructions, memory=None):

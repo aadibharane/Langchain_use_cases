@@ -15,8 +15,7 @@ from langchain.docstore.document import Document
 from langchain.prompts import PromptTemplate
 from langchain.indexes.vectorstore import VectorstoreIndexCreator
 import os
-os.environ["OPENAI_API_KEY"] ="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"  #"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"
-
+os.environ["OPENAI_API_KEY"] ="OPENAI_API_KEY"  
 def que_ans_doc():
     with open("E:\langchain\Question_Answering_over_docs\state_of_the_union.txt",encoding='utf-8') as f:
         state_of_the_union = f.read()

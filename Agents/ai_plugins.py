@@ -28,7 +28,7 @@ rather than the endpoints directly. This is because the plugins may contain more
 '''
 
 import os
-os.environ["OPENAI_API_KEY"] ="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"                        #"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"
+os.environ["OPENAI_API_KEY"] ="your_api_key"                       
 
 
 #Set up environment

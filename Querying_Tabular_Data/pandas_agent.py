@@ -10,7 +10,7 @@ from langchain.llms import OpenAI
 import pandas as pd
 import os
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "OPENAI_API_KEY"
 
 def pandas_agent():
     df = pd.read_csv('titanic.csv')

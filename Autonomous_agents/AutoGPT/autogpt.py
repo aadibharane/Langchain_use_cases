@@ -11,9 +11,9 @@
 
 # import os
 
-# os.environ["OPENAI_API_KEY"] ="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"
+# os.environ["OPENAI_API_KEY"] ="OPENAI_API_KEY"
 
-# serpapi_key="5e4b783d1e905b2992665d83235e27aaa73e103f239fb757b84be1cc2c75c57b"
+# serpapi_key="serpapi_key"
 # search = SerpAPIWrapper(serpapi_api_key=serpapi_key)
 # tools = [
 #     Tool(
@@ -87,8 +87,8 @@ from langchain.docstore import InMemoryDocstore
 from langchain.embeddings import OpenAIEmbeddings
 
 def run_autogpt(prompt):
-    os.environ["OPENAI_API_KEY"] = "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"
-    serpapi_key = "5e4b783d1e905b2992665d83235e27aaa73e103f239fb757b84be1cc2c75c57b"
+    os.environ["OPENAI_API_KEY"] = "sOPENAI_API_KEY"
+    serpapi_key = "serpapi_key"
     search = SerpAPIWrapper(serpapi_api_key=serpapi_key)
     tools = [
         Tool(

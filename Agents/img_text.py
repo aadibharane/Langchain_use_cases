@@ -2,8 +2,8 @@
 # import re
 # from IPython.display import Image
 # import os
-# os.environ['OPENAI_API_KEY'] = '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'
-# os.environ['STEAMSHIP_API_KEY'] = "9A04BC86-CD0D-479E-B448-E245B19BC9AB"
+# os.environ['OPENAI_API_KEY'] = 'your_api_key'
+# os.environ['STEAMSHIP_API_KEY'] = "STEAMSHIP_API_KEY"
 
 # from langchain import OpenAI
 # from langchain.agents import initialize_agent
